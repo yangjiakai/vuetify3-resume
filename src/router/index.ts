@@ -5,7 +5,7 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      redirect: "/ui",
+      redirect: "/resume",
     },
     // this page is a sample page for api calling
     {
@@ -21,6 +21,12 @@ const router = createRouter({
       name: "ui",
       component: () =>
         import(/* webpackChunkName: "app-ui" */ "@/views/UI.vue"),
+    },
+    {
+      path: "/resume",
+      name: "resume",
+      component: () =>
+        import(/* webpackChunkName: "app-resume" */ "@/views/Resume.vue"),
     },
   ],
 });
