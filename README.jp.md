@@ -9,7 +9,7 @@
 <br>
 
 <p align='center'>
-<a href="https://github.com/yangjiakai/vuetify3-base/blob/main/README.md">English</a> | <a href="https://github.com/yangjiakai/vuetify3-base/blob/main/README.zh-CN.md">简体中文</a>| <b >日本語</b>
+<a href="https://github.com/yangjiakai/Vuetify3-Resume/blob/main/README.md">English</a> | <a href="https://github.com/yangjiakai/Vuetify3-Resume/blob/main/README.zh-CN.md">简体中文</a>| <b >日本語</b>
 </p>
 
 ## 序文
@@ -39,9 +39,9 @@
 ## 今すぐ試す!
 
 ```
-git clone https://github.com/yangjiakai/vuetify3-base.git
+git clone https://github.com/yangjiakai/Vuetify3-Resume.git
 
-cd vuetify3-base
+cd Vuetify3-Resume
 
 npm install
 

@@ -9,7 +9,7 @@
 <br>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/yangjiakai/vuetify3-base/blob/master/README.zh-CN.md">简体中文</a>| <a href="https://github.com/yangjiakai/vuetify3-base/blob/master/README.jp.md">日本語</a>
+<b>English</b> | <a href="https://github.com/yangjiakai/Vuetify3-Resume/blob/master/README.zh-CN.md">简体中文</a>| <a href="https://github.com/yangjiakai/Vuetify3-Resume/blob/master/README.jp.md">日本語</a>
 </p>
 
 ## Introduction
@@ -38,9 +38,9 @@ This is a development template that integrates frequently used features and plug
 ## Try it now!
 
 ```
-https://github.com/yangjiakai/vuetify3-base.git
+https://github.com/yangjiakai/Vuetify3-Resume.git
 
-cd vuetify3-base
+cd Vuetify3-Resume
 
 npm install
 

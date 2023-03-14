@@ -67,34 +67,236 @@
       <!---Career summary Area -->
       <!-- ---------------------------------------------- -->
       <div class="main-area">
-        <h3>CAREER SUMMARY</h3>
+        <h3>职业概述</h3>
         <v-divider color="#434E5E" thickness="2" class="my-5"></v-divider>
         <p>
-          Summarise your career here. You can make a PDF version of your resume
-          using our free Sketch template here. Aenean commodo ligula eget dolor
-          aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing
-          elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-          sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-          aliquet nec, vulputate eget. Lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit.
+          我是一名全栈工程师,拥有6年的开发经验。从UI设计,前端,后端,服务器运维都有涉猎,其中尤其精通Vue框架,对前端工程化组件化有较深刻理解,至今为止参与的项目主要以前端Vue+后端Java
+          SpringBoot框架的技术栈为主。
+          在最近的项目中,我主导前端的技术栈选型,负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
+          其中6年的开发经验中,一年在中国,5年在日本
+          自己本身对新技术有非常强烈的热情,对于新技术的学习能力也是非常强的,工作之余也在持续进行开源分享,我在github上多个Vue的开源项目
+          在功能目标实现,质量保障的的前提下,专注于提升团队的开发效率,以及产品的用户体验
         </p>
 
         <v-row class="mt-8">
           <v-col cols="12" md="9">
             <div>
-              <h3>CAREER SUMMARY</h3>
+              <h3>项目经验</h3>
               <v-divider color="#434E5E" thickness="2" class="my-5">
               </v-divider>
+              <v-timeline density="compact" side="end" align="start">
+                <v-timeline-item
+                  v-for="i in 8"
+                  dot-color="#434E5E"
+                  size="small"
+                >
+                  <div class="d-flex">
+                    <div>
+                      <strong>数据收集和分配系统(税务)</strong>
+                      <div class="text-caption">2022/01 - 前端开发工程师</div>
+                      <div>
+                        <strong>项目概述:</strong>
+                        <p>
+                          主导前端的技术栈选型,前端使用Vue3进行开发负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
+                        </p>
+                        <strong>职责概述</strong>
+                        <li>
+                          主导前端的技术栈选型,前端使用Vue3进行开发负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
+                        </li>
+                        <li>参与项目各个功能模块的功能开发</li>
+                        <li>对项目的性能进行调优</li>
+                        <li>解决前端开发遇到难点问题</li>
+                        <strong>技术栈:</strong>
+                        <div>
+                          <v-chip
+                            class="ma-2"
+                            color="#434E5E"
+                            label
+                            text-color="white"
+                            density="compact"
+                          >
+                            <v-icon start icon="mdi-label"></v-icon>
+                            前端 vue
+                          </v-chip>
+                          <v-chip
+                            class="ma-2"
+                            color="#434E5E"
+                            label
+                            text-color="white"
+                            density="compact"
+                          >
+                            <v-icon start icon="mdi-label"></v-icon>
+                            后端 .net
+                          </v-chip>
+                          <v-chip
+                            class="ma-2"
+                            color="#434E5E"
+                            label
+                            text-color="white"
+                            density="compact"
+                          >
+                            <v-icon start icon="mdi-label"></v-icon>
+                            服务器 aws
+                          </v-chip>
+                          <v-chip
+                            class="ma-2"
+                            color="#434E5E"
+                            label
+                            text-color="white"
+                            density="compact"
+                          >
+                            <v-icon start icon="mdi-label"></v-icon>
+                            数据库 dynamodb
+                          </v-chip>
+                        </div>
+                        <strong>工具集:</strong>
+                        <div>
+                          <v-chip
+                            class="ma-2"
+                            color="#434E5E"
+                            label
+                            text-color="white"
+                            density="compact"
+                          >
+                            <v-icon start icon="mdi-label"></v-icon>
+                            vscode
+                          </v-chip>
+                          <v-chip
+                            class="ma-2"
+                            color="#434E5E"
+                            label
+                            text-color="white"
+                            density="compact"
+                          >
+                            <v-icon start icon="mdi-label"></v-icon>
+                            visual studio
+                          </v-chip>
+                          <v-chip
+                            class="ma-2"
+                            color="#434E5E"
+                            label
+                            text-color="white"
+                            density="compact"
+                          >
+                            <v-icon start icon="mdi-label"></v-icon>
+                            git版本管理
+                          </v-chip>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </v-timeline-item>
+
+                <v-timeline-item dot-color="teal-lighten-3" size="small">
+                  <div class="d-flex">
+                    <strong class="me-4">3-4pm</strong>
+                    <div>
+                      <strong>Design Stand Up</strong>
+                      <div class="text-caption mb-2">Hangouts</div>
+                    </div>
+                  </div>
+                </v-timeline-item>
+
+                <v-timeline-item dot-color="pink" size="small">
+                  <div class="d-flex">
+                    <strong class="me-4">12pm</strong>
+                    <div>
+                      <strong>Lunch break</strong>
+                    </div>
+                  </div>
+                </v-timeline-item>
+
+                <v-timeline-item dot-color="teal-lighten-3" size="small">
+                  <div class="d-flex">
+                    <strong class="me-4">9-11am</strong>
+                    <div>
+                      <strong>Finish Home Screen</strong>
+                      <div class="text-caption">Web App</div>
+                    </div>
+                  </div>
+                </v-timeline-item>
+              </v-timeline>
             </div>
           </v-col>
           <v-col cols="12" md="3">
             <div>
               <h3>SKILLS & TOOLS</h3>
               <v-divider color="#434E5E" thickness="2" class="my-5"></v-divider>
+              <b> Frontend</b>
+              <div>
+                <p>vue</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p>vue</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p>vue</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p>vue</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p>vue</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <b> Backend</b>
+
+              <div>
+                <p>java</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p>java</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p>java</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p>java</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="90"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
             </div>
           </v-col>
         </v-row>
