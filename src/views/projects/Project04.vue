@@ -9,22 +9,23 @@
   <v-timeline-item dot-color="#434E5E" size="small">
     <div class="d-flex">
       <div>
-        <strong>数据集配信管理系统(税务)</strong>
+        <strong>电通广告分析系统</strong>
         <div class="text-caption">
-          2022/01 - 2023/05 <span> 前端开发工程师</span>
+          2021/12 - 2022/02 <span> 前端开发工程师</span>
         </div>
         <div>
           <strong>项目概述:</strong>
-          <p>
-            主导前端的技术栈选型,前端使用Vue3进行开发负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
-          </p>
+          <p>Flash功能不再维护,数据分析图表从Flash到JavaScript的移植开发</p>
           <strong>职责概述</strong>
-          <li>前端基础组件共通化</li>
-          <li>开发数个大型复杂表单页面</li>
-          <li>参与项目各个功能模块的功能开发</li>
-          <li>对项目的性能进行调优</li>
-          <li>解决前端开发遇到难点问题</li>
-          <li>代码Review</li>
+          <li></li>
+          <li>
+            电通广告模拟系统内数据分析图表从Flash到JavaScript的移植开发，包含多数据源的折线图，柱状图，堆叠条形图以及综合图表的开发
+          </li>
+          <li>
+            电通广告分析系统内数据分析图表从Flash到JavaScript的移植开发，包含散点图，线性回归，指数回归，多项式回归，数据分组，动态数据实时渲染等功能开发
+          </li>
+          <li>移植开发完成数据图表分析功能的测试式样书作成，并执行测试</li>
+
           <strong>技术栈:</strong>
           <div>
             <v-chip
@@ -35,7 +36,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              前端 vue3
+              jQuery
             </v-chip>
             <v-chip
               class="ma-2"
@@ -45,27 +46,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              后端 .net
-            </v-chip>
-            <v-chip
-              class="ma-2"
-              color="#434E5E"
-              label
-              text-color="white"
-              density="compact"
-            >
-              <v-icon start icon="mdi-label-outline"></v-icon>
-              服务器 aws
-            </v-chip>
-            <v-chip
-              class="ma-2"
-              color="#434E5E"
-              label
-              text-color="white"
-              density="compact"
-            >
-              <v-icon start icon="mdi-label-outline"></v-icon>
-              数据库 dynamodb
+              Echart
             </v-chip>
           </div>
           <strong>工具集:</strong>
@@ -80,16 +61,7 @@
               <v-icon start icon="mdi-label-outline"></v-icon>
               vscode
             </v-chip>
-            <v-chip
-              class="ma-2"
-              color="#434E5E"
-              label
-              text-color="white"
-              density="compact"
-            >
-              <v-icon start icon="mdi-label-outline"></v-icon>
-              visual studio
-            </v-chip>
+
             <v-chip
               class="ma-2"
               color="#434E5E"

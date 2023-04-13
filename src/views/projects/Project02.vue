@@ -29,6 +29,7 @@
             使用codepipeline持续化集成部署项目,并在功能上线后使用cloudwatch查看项目运行log调查bug
           </li>
           <li>代码检查</li>
+          <li>共通组件开发</li>
           <strong>技术栈:</strong>
           <div>
             <v-chip
