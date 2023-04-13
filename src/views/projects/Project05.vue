@@ -9,28 +9,21 @@
   <v-timeline-item dot-color="#434E5E" size="small">
     <div class="d-flex">
       <div>
-        <strong>Lalaport商品贩卖和商品柜存储 Line App</strong>
+        <strong>电通会计系统</strong>
         <div class="text-caption">
-          2022/08 - 2022/12 <span> 前端开发工程师</span>
+          2021/02 - 2022/11 <span> 全栈开发工程师</span>
         </div>
         <div>
           <strong>项目概述:</strong>
-          <p>
-            这是一个Line
-            App。一方面用户可以在网上商店进行购物,也可以在Lalaport商场购物。购买的商品可以选择寄存在车站就近的商品柜
-            用户可以通过扫码到商品柜取货。相关信息都可以通过Line
-            App查看,物流存储信息也会及时推送给用户
-          </p>
+          <p>担任部分Master管理功能开发</p>
           <strong>职责概述</strong>
-          <li>Jmeter进行压力测试,并优化项目启动速度,接口请求速度</li>
-          <li>商品柜使用状况功能开发担当</li>
-          <li>与结合连入Line的服务</li>
           <li>
-            使用codepipeline持续化集成部署项目,并在功能上线后使用cloudwatch查看项目运行log调查bug
+            担当会计系统内的部分功能的开发，包含：勘定科目、源泉徴収税、予算等マスタ管理功能开发以及预算的部分业务功能及API开发
           </li>
-          <li>代码检查</li>
-          <li>共通组件开发</li>
-          <li>敏捷开发</li>
+          <li>担当功能的数据库设计式样书作成并进行关联表作成</li>
+          <li>担当功能的SQL文作成以及使用SpringBoot进行后端开发Restful Api</li>
+          <li>担当功能的前端画面使用Vue和Wijimo根据设计式样书进行开发</li>
+          <li>使用敏捷开发进行开发推进</li>
           <strong>技术栈:</strong>
           <div>
             <v-chip
@@ -41,7 +34,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              前端 vue
+              Vue
             </v-chip>
             <v-chip
               class="ma-2"
@@ -51,7 +44,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              后端 java springboot
+              TypeScript
             </v-chip>
             <v-chip
               class="ma-2"
@@ -61,7 +54,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              服务器 aws codepipeline
+              Wijimo
             </v-chip>
             <v-chip
               class="ma-2"
@@ -71,7 +64,27 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              数据库 dynamodb
+              SpringBoot
+            </v-chip>
+            <v-chip
+              class="ma-2"
+              color="#434E5E"
+              label
+              text-color="white"
+              density="compact"
+            >
+              <v-icon start icon="mdi-label-outline"></v-icon>
+              JPA
+            </v-chip>
+            <v-chip
+              class="ma-2"
+              color="#434E5E"
+              label
+              text-color="white"
+              density="compact"
+            >
+              <v-icon start icon="mdi-label-outline"></v-icon>
+              PostgresSQL
             </v-chip>
           </div>
           <strong>工具集:</strong>
@@ -86,16 +99,7 @@
               <v-icon start icon="mdi-label-outline"></v-icon>
               vscode
             </v-chip>
-            <v-chip
-              class="ma-2"
-              color="#434E5E"
-              label
-              text-color="white"
-              density="compact"
-            >
-              <v-icon start icon="mdi-label-outline"></v-icon>
-              eclipse
-            </v-chip>
+
             <v-chip
               class="ma-2"
               color="#434E5E"

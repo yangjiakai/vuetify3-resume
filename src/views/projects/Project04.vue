@@ -17,7 +17,7 @@
           <strong>项目概述:</strong>
           <p>Flash功能不再维护,数据分析图表从Flash到JavaScript的移植开发</p>
           <strong>职责概述</strong>
-          <li></li>
+
           <li>
             电通广告模拟系统内数据分析图表从Flash到JavaScript的移植开发，包含多数据源的折线图，柱状图，堆叠条形图以及综合图表的开发
           </li>
