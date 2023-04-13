@@ -28,6 +28,12 @@ const router = createRouter({
       component: () =>
         import(/* webpackChunkName: "app-resume" */ "@/views/Resume.vue"),
     },
+    {
+      path: "/resume/jp",
+      name: "resume-jp",
+      component: () =>
+        import(/* webpackChunkName: "app-resume-jp" */ "@/views/ResumeJP.vue"),
+    },
   ],
 });
 

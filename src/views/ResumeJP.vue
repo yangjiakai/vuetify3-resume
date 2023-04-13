@@ -43,8 +43,10 @@ import Project09 from "./projects/Project09.vue";
         <div class="info-container px-10 py-5">
           <v-row>
             <v-col cols="6" md="7">
-              <h1 class="text-white font-weight-bold">杨嘉凯</h1>
-              <h2 class="text-white">全栈工程师</h2>
+              <h1 class="text-white font-weight-bold">
+                楊　嘉凱(よう　かがい)
+              </h1>
+              <h2 class="text-white">フルスタックエンジニア</h2>
               <p><v-icon icon="mdi-email" class="mr-2" />yjkbako@gmail.com</p>
               <p><v-icon icon="mdi-phone" class="mr-2" />070 4376 2157</p>
             </v-col>
@@ -77,21 +79,19 @@ import Project09 from "./projects/Project09.vue";
       <!---Career summary Area -->
       <!-- ---------------------------------------------- -->
       <div class="main-area">
-        <h3>职业概述</h3>
+        <h3>職業概要</h3>
         <v-divider color="#434E5E" thickness="2" class="my-5"></v-divider>
         <p>
-          我是一名全栈工程师,拥有6年的开发经验。从UI设计,前端,后端,服务器运维都有涉猎,其中尤其精通Vue框架,对前端工程化组件化有较深刻理解,至今为止参与的项目主要以前端Vue+后端Java
-          SpringBoot框架的技术栈为主。
-          在最近的项目中,我主导前端的技术栈选型,负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
-          其中6年的开发经验中,一年在中国,5年在日本
-          自己本身对新技术有非常强烈的热情,对于新技术的学习能力也是非常强的,工作之余也在持续进行开源分享,我在github上多个Vue的开源项目
-          在功能目标实现,质量保障的的前提下,专注于提升团队的开发效率,以及产品的用户体验
+          私はフルスタックエンジニアで、6年の開発経験があります。UIデザイン、フロントエンド、バックエンド、サーバー運用など幅広い分野での経験があり、特にVueフレームワークに精通しています。フロントエンドエンジニアリングやコンポーネント指向に深い理解を持ち、主にVueフレームワークとバックエンドJava
+          SpringBootフレームワークを使用したプロジェクトに参加してきました。
+          最近のプロジェクトでは、私はフロントエンドの技術スタックの選定をリードし、フロントエンドコンポーネントのモジュール化および共通化、コードの標準化、コードチェックなどを担当しました。
+          6年の開発経験のうち、1年間は中国で働き、5年間は日本で働いています。新しい技術に非常に興味があり、学習能力も優れています。仕事の合間にはオープンソースプロジェクトにも取り組んでおり、GitHubでいくつかのVueオープンソースプロジェクトを持っています。機能目標の実現と品質保証を前提として、チームの開発効率と製品のユーザーエクスペリエンスの向上に専念しています。
         </p>
 
         <v-row class="mt-8">
           <v-col cols="12" md="9">
             <div>
-              <h3>项目经验</h3>
+              <h3>プロジェクト経験</h3>
               <v-divider color="#434E5E" thickness="2" class="my-5">
               </v-divider>
               <v-timeline density="compact" side="end" align="start">
