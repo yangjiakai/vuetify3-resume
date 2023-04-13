@@ -10,6 +10,7 @@ import Project03 from "./projects/Project03.vue";
 import Project04 from "./projects/Project04.vue";
 import Project05 from "./projects/Project05.vue";
 import Project06 from "./projects/Project06.vue";
+import Project07 from "./projects/Project07.vue";
 </script>
 
 <template>
@@ -98,6 +99,7 @@ import Project06 from "./projects/Project06.vue";
                 <Project04></Project04>
                 <Project05></Project05>
                 <Project06></Project06>
+                <Project07></Project07>
                 <v-timeline-item dot-color="teal-lighten-3" size="small">
                   <div class="d-flex">
                     <strong class="me-4">3-4pm</strong>
