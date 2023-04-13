@@ -3,7 +3,10 @@
 * @Maintainer: J.K. Yang
 * @Description: 
 -->
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Project01 from "./projects/Project01.vue";
+import Project02 from "./projects/Project02.vue";
+</script>
 
 <template>
   <div class="bg">
@@ -85,108 +88,8 @@
               <v-divider color="#434E5E" thickness="2" class="my-5">
               </v-divider>
               <v-timeline density="compact" side="end" align="start">
-                <v-timeline-item
-                  v-for="i in 8"
-                  dot-color="#434E5E"
-                  size="small"
-                >
-                  <div class="d-flex">
-                    <div>
-                      <strong>数据收集和分配系统(税务)</strong>
-                      <div class="text-caption">2022/01 - 前端开发工程师</div>
-                      <div>
-                        <strong>项目概述:</strong>
-                        <p>
-                          主导前端的技术栈选型,前端使用Vue3进行开发负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
-                        </p>
-                        <strong>职责概述</strong>
-                        <li>
-                          主导前端的技术栈选型,前端使用Vue3进行开发负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
-                        </li>
-                        <li>参与项目各个功能模块的功能开发</li>
-                        <li>对项目的性能进行调优</li>
-                        <li>解决前端开发遇到难点问题</li>
-                        <strong>技术栈:</strong>
-                        <div>
-                          <v-chip
-                            class="ma-2"
-                            color="#434E5E"
-                            label
-                            text-color="white"
-                            density="compact"
-                          >
-                            <v-icon start icon="mdi-label"></v-icon>
-                            前端 vue
-                          </v-chip>
-                          <v-chip
-                            class="ma-2"
-                            color="#434E5E"
-                            label
-                            text-color="white"
-                            density="compact"
-                          >
-                            <v-icon start icon="mdi-label"></v-icon>
-                            后端 .net
-                          </v-chip>
-                          <v-chip
-                            class="ma-2"
-                            color="#434E5E"
-                            label
-                            text-color="white"
-                            density="compact"
-                          >
-                            <v-icon start icon="mdi-label"></v-icon>
-                            服务器 aws
-                          </v-chip>
-                          <v-chip
-                            class="ma-2"
-                            color="#434E5E"
-                            label
-                            text-color="white"
-                            density="compact"
-                          >
-                            <v-icon start icon="mdi-label"></v-icon>
-                            数据库 dynamodb
-                          </v-chip>
-                        </div>
-                        <strong>工具集:</strong>
-                        <div>
-                          <v-chip
-                            class="ma-2"
-                            color="#434E5E"
-                            label
-                            text-color="white"
-                            density="compact"
-                          >
-                            <v-icon start icon="mdi-label"></v-icon>
-                            vscode
-                          </v-chip>
-                          <v-chip
-                            class="ma-2"
-                            color="#434E5E"
-                            label
-                            text-color="white"
-                            density="compact"
-                          >
-                            <v-icon start icon="mdi-label"></v-icon>
-                            visual studio
-                          </v-chip>
-                          <v-chip
-                            class="ma-2"
-                            color="#434E5E"
-                            label
-                            text-color="white"
-                            density="compact"
-                          >
-                            <v-icon start icon="mdi-label"></v-icon>
-                            git版本管理
-                          </v-chip>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </v-timeline-item>
-
+                <project01></project01>
+                <project02></project02>
                 <v-timeline-item dot-color="teal-lighten-3" size="small">
                   <div class="d-flex">
                     <strong class="me-4">3-4pm</strong>
