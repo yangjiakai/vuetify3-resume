@@ -6,6 +6,7 @@
 <script setup lang="ts">
 import Project01 from "./projects/Project01.vue";
 import Project02 from "./projects/Project02.vue";
+import Project03 from "./projects/Project03.vue";
 </script>
 
 <template>
@@ -88,8 +89,9 @@ import Project02 from "./projects/Project02.vue";
               <v-divider color="#434E5E" thickness="2" class="my-5">
               </v-divider>
               <v-timeline density="compact" side="end" align="start">
-                <project01></project01>
-                <project02></project02>
+                <Project01></Project01>
+                <Project02></Project02>
+                <Project03></Project03>
                 <v-timeline-item dot-color="teal-lighten-3" size="small">
                   <div class="d-flex">
                     <strong class="me-4">3-4pm</strong>
@@ -125,9 +127,9 @@ import Project02 from "./projects/Project02.vue";
             <div>
               <h3>SKILLS & TOOLS</h3>
               <v-divider color="#434E5E" thickness="2" class="my-5"></v-divider>
-              <b> Frontend</b>
+              <h6 class="text-h6 my-2"><b class="">Frontend</b></h6>
               <div>
-                <p>vue</p>
+                <p class="mt-2">vue2/vue3</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
@@ -135,7 +137,7 @@ import Project02 from "./projects/Project02.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p>vue</p>
+                <p class="mt-2">vue-router</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
@@ -143,7 +145,7 @@ import Project02 from "./projects/Project02.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p>vue</p>
+                <p class="mt-2">vuex/pinia</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
@@ -151,7 +153,7 @@ import Project02 from "./projects/Project02.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p>vue</p>
+                <p class="mt-2">vuetify2/vuetify3</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
@@ -159,17 +161,18 @@ import Project02 from "./projects/Project02.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p>vue</p>
+                <p class="mt-2">git</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
                   :height="6"
                 ></v-progress-linear>
               </div>
-              <b> Backend</b>
+
+              <h6 class="text-h6 my-2"><b class="">Backend</b></h6>
 
               <div>
-                <p>java</p>
+                <p class="mt-2">java springboot</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
@@ -177,7 +180,7 @@ import Project02 from "./projects/Project02.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p>java</p>
+                <p class="mt-2">java</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
@@ -185,7 +188,7 @@ import Project02 from "./projects/Project02.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p>java</p>
+                <p class="mt-2">java</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
@@ -193,7 +196,7 @@ import Project02 from "./projects/Project02.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p>java</p>
+                <p class="mt-2">java</p>
                 <v-progress-linear
                   color="primary"
                   model-value="90"
