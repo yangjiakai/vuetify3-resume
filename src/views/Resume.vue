@@ -11,6 +11,8 @@ import Project04 from "./projects/Project04.vue";
 import Project05 from "./projects/Project05.vue";
 import Project06 from "./projects/Project06.vue";
 import Project07 from "./projects/Project07.vue";
+import Project08 from "./projects/Project08.vue";
+import Project09 from "./projects/Project09.vue";
 </script>
 
 <template>
@@ -100,34 +102,8 @@ import Project07 from "./projects/Project07.vue";
                 <Project05></Project05>
                 <Project06></Project06>
                 <Project07></Project07>
-                <v-timeline-item dot-color="teal-lighten-3" size="small">
-                  <div class="d-flex">
-                    <strong class="me-4">3-4pm</strong>
-                    <div>
-                      <strong>Design Stand Up</strong>
-                      <div class="text-caption mb-2">Hangouts</div>
-                    </div>
-                  </div>
-                </v-timeline-item>
-
-                <v-timeline-item dot-color="pink" size="small">
-                  <div class="d-flex">
-                    <strong class="me-4">12pm</strong>
-                    <div>
-                      <strong>Lunch break</strong>
-                    </div>
-                  </div>
-                </v-timeline-item>
-
-                <v-timeline-item dot-color="teal-lighten-3" size="small">
-                  <div class="d-flex">
-                    <strong class="me-4">9-11am</strong>
-                    <div>
-                      <strong>Finish Home Screen</strong>
-                      <div class="text-caption">Web App</div>
-                    </div>
-                  </div>
-                </v-timeline-item>
+                <Project08></Project08>
+                <Project09></Project09>
               </v-timeline>
             </div>
           </v-col>
@@ -136,6 +112,7 @@ import Project07 from "./projects/Project07.vue";
               <h3>SKILLS & TOOLS</h3>
               <v-divider color="#434E5E" thickness="2" class="my-5"></v-divider>
               <h6 class="text-h6 my-2"><b class="">Frontend</b></h6>
+
               <div>
                 <p class="mt-2">vue2/vue3</p>
                 <v-progress-linear

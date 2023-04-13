@@ -10,7 +10,7 @@
     <div class="d-flex">
       <div>
         <strong>NTT消防管理系统</strong>
-        <div class="text-caption">2020/10 - 2021/02 <span> Java</span></div>
+        <div class="text-caption">2019/10 - 2020/02 <span> Java</span></div>
         <div>
           <strong>项目概述:</strong>
           <p>追加機能開発</p>
@@ -39,6 +39,16 @@
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
               Java
+            </v-chip>
+            <v-chip
+              class="ma-2"
+              color="#434E5E"
+              label
+              text-color="white"
+              density="compact"
+            >
+              <v-icon start icon="mdi-label-outline"></v-icon>
+              Oracle
             </v-chip>
           </div>
           <strong>工具集:</strong>

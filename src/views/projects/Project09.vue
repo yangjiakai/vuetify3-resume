@@ -9,21 +9,15 @@
   <v-timeline-item dot-color="#434E5E" size="small">
     <div class="d-flex">
       <div>
-        <strong>电通会计系统</strong>
-        <div class="text-caption">
-          2020/02 - 2020/11 <span> 全栈开发工程师</span>
-        </div>
+        <strong>Salesforce OA管理系统</strong>
+        <div class="text-caption">2017/07 - 2018/08</div>
         <div>
           <strong>项目概述:</strong>
-          <p>担任部分Master管理功能开发</p>
+          <p>全画面的UI设计以及Vue前端开发</p>
           <strong>职责概述</strong>
-          <li>
-            担当会计系统内的部分功能的开发，包含：勘定科目、源泉徴収税、予算等マスタ管理功能开发以及预算的部分业务功能及API开发
-          </li>
-          <li>担当功能的数据库设计式样书作成并进行关联表作成</li>
-          <li>担当功能的SQL文作成以及使用SpringBoot进行后端开发Restful Api</li>
-          <li>担当功能的前端画面使用Vue和Wijimo根据设计式样书进行开发</li>
-          <li>使用敏捷开发进行开发推进</li>
+          <li>根据客户的要求定制功能</li>
+          <li>既存功能的bug对应</li>
+          <li>自动化测试</li>
           <strong>技术栈:</strong>
           <div>
             <v-chip
@@ -34,7 +28,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              Vue
+              Apex
             </v-chip>
             <v-chip
               class="ma-2"
@@ -44,7 +38,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              TypeScript
+              JavaScript
             </v-chip>
             <v-chip
               class="ma-2"
@@ -54,7 +48,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              Wijimo
+              Selenium
             </v-chip>
             <v-chip
               class="ma-2"
@@ -64,27 +58,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              SpringBoot
-            </v-chip>
-            <v-chip
-              class="ma-2"
-              color="#434E5E"
-              label
-              text-color="white"
-              density="compact"
-            >
-              <v-icon start icon="mdi-label-outline"></v-icon>
-              JPA
-            </v-chip>
-            <v-chip
-              class="ma-2"
-              color="#434E5E"
-              label
-              text-color="white"
-              density="compact"
-            >
-              <v-icon start icon="mdi-label-outline"></v-icon>
-              PostgresSQL
+              SOQL
             </v-chip>
           </div>
           <strong>工具集:</strong>
@@ -97,9 +71,8 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              vscode
+              Git
             </v-chip>
-
             <v-chip
               class="ma-2"
               color="#434E5E"
@@ -108,7 +81,17 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              git版本管理
+              Axure
+            </v-chip>
+            <v-chip
+              class="ma-2"
+              color="#434E5E"
+              label
+              text-color="white"
+              density="compact"
+            >
+              <v-icon start icon="mdi-label-outline"></v-icon>
+              IntelliJ IDEA
             </v-chip>
           </div>
         </div>

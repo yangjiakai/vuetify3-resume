@@ -11,7 +11,7 @@
       <div>
         <strong>Lalaport商品贩卖和商品柜存储 Line App</strong>
         <div class="text-caption">
-          2022/08 - 2022/12 <span> 前端开发工程师</span>
+          2021/08 - 2021/12 <span> 前端开发工程师</span>
         </div>
         <div>
           <strong>项目概述:</strong>

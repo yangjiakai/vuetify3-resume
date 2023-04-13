@@ -11,7 +11,7 @@
       <div>
         <strong>电通广告分析系统</strong>
         <div class="text-caption">
-          2021/12 - 2022/02 <span> 前端开发工程师</span>
+          2020/12 - 2021/02 <span> 前端开发工程师</span>
         </div>
         <div>
           <strong>项目概述:</strong>

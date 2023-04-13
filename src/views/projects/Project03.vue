@@ -11,7 +11,7 @@
       <div>
         <strong>Dospara 电商网站</strong>
         <div class="text-caption">
-          2022/03 - 2022/07 <span> 前端开发工程师</span>
+          2021/03 - 2021/07 <span> 前端开发工程师</span>
         </div>
         <div>
           <strong>项目概述:</strong>

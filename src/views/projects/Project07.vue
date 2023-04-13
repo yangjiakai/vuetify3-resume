@@ -10,7 +10,7 @@
     <div class="d-flex">
       <div>
         <strong>Versal官方网站及职位信息管理系统</strong>
-        <div class="text-caption">2020/10 - 2021/02 <span> Java</span></div>
+        <div class="text-caption">2020/06 - 2019/09</div>
         <div>
           <strong>项目概述:</strong>
           <p>个人担当</p>
@@ -57,7 +57,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              mysql
+              Mysql
             </v-chip>
           </div>
           <strong>工具集:</strong>
@@ -71,6 +71,26 @@
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
               Git
+            </v-chip>
+            <v-chip
+              class="ma-2"
+              color="#434E5E"
+              label
+              text-color="white"
+              density="compact"
+            >
+              <v-icon start icon="mdi-label-outline"></v-icon>
+              Axure
+            </v-chip>
+            <v-chip
+              class="ma-2"
+              color="#434E5E"
+              label
+              text-color="white"
+              density="compact"
+            >
+              <v-icon start icon="mdi-label-outline"></v-icon>
+              IntelliJ IDEA
             </v-chip>
           </div>
         </div>
