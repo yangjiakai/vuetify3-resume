@@ -6,19 +6,26 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-8-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
-        <strong>WBE EDI 人才管理派遣系统</strong>
-        <div class="text-caption">2018/09 - 2019/05</div>
         <div>
-          <strong>项目概述:</strong>
-          <p>全画面的UI设计以及Vue前端开发</p>
-          <strong>职责概述</strong>
-          <li>全页面UI设计</li>
-          <li>包括人员管理,勤怠管理,发注,受注等功能Vue开发</li>
-          <li>一部分API的开发担当</li>
-          <strong>技术栈:</strong>
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2018/09 - 2019/05</v-chip
+            >
+            WBE EDI 人材派遣管理システム</strong
+          >
+          <span class="text-caption text-grey">(Frontend)</span>
+        </div>
+        <div>
+          <strong>プロジェクト概要:</strong>
+          <p>全画面のUIデザインとVueフロントエンド開発</p>
+          <strong>職務の概要</strong>
+          <li>全ページのUIデザイン</li>
+          <li>ユーザー管理,勤怠管理,發注,受注等機能のVue開発</li>
+          <li>一部のAPI開発担当</li>
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -38,7 +45,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              ElementUI
+              Ant Design
             </v-chip>
             <v-chip
               class="ma-2"
@@ -71,7 +78,7 @@
               Mysql
             </v-chip>
           </div>
-          <strong>工具集:</strong>
+          <strong>Tools:</strong>
           <div>
             <v-chip
               class="ma-2"

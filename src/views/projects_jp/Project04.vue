@@ -6,27 +6,35 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-4-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
-        <strong>电通广告分析系统</strong>
-        <div class="text-caption">
-          2020/12 - 2021/02 <span> 前端开发工程师</span>
+        <div class="mb-3">
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2020/12 - 2021/02</v-chip
+            >
+            Dospara ECサイト</strong
+          >
         </div>
+        <strong>電通広告分析システム</strong>
+
         <div>
-          <strong>项目概述:</strong>
-          <p>Flash功能不再维护,数据分析图表从Flash到JavaScript的移植开发</p>
-          <strong>职责概述</strong>
+          <strong>プロジェクト概要:</strong>
+          <p>
+            Flash機能の更新が終了して,データ分析グラフがFlashからJavaScriptへの移植開発
+          </p>
+          <strong>職務の概要</strong>
 
           <li>
-            电通广告模拟系统内数据分析图表从Flash到JavaScript的移植开发，包含多数据源的折线图，柱状图，堆叠条形图以及综合图表的开发
+            广告シミュレーションシステムのグラフの移植開発（折れ線グラフ、棒グラフ、積み上げ棒グラフ,総合グラフなど）含まれます
           </li>
           <li>
-            电通广告分析系统内数据分析图表从Flash到JavaScript的移植开发，包含散点图，线性回归，指数回归，多项式回归，数据分组，动态数据实时渲染等功能开发
+            広告分析システム内の移植開発,回帰関数(線形回帰、指数回帰、多項式回帰)とデータグループ化、データ活性化など含まれます。
           </li>
-          <li>移植开发完成数据图表分析功能的测试式样书作成，并执行测试</li>
+          <li>テスト仕様書を作成し、テストを実行</li>
 
-          <strong>技术栈:</strong>
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -49,7 +57,7 @@
               Echart
             </v-chip>
           </div>
-          <strong>工具集:</strong>
+          <strong>Tools:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -70,7 +78,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              git版本管理
+              git
             </v-chip>
           </div>
         </div>

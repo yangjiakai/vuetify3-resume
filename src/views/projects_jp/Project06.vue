@@ -6,19 +6,25 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-6-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
-        <strong>NTT消防管理系统</strong>
-        <div class="text-caption">2019/10 - 2020/02 <span> Java</span></div>
-        <div>
-          <strong>项目概述:</strong>
-          <p>追加機能開発</p>
-          <strong>职责概述</strong>
-          <li>消防OA系统的功能追加开发</li>
-          <li>消防OA系统账票追加与修正</li>
+        <div class="mb-3">
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2019/10 - 2020/02</v-chip
+            >
+            NTT消防管理システム</strong
+          >
+        </div>
 
-          <strong>技术栈:</strong>
+        <div>
+          <strong>プロジェクト概要:</strong>
+          <p>追加機能開発</p>
+          <strong>職務の概要</strong>
+          <li>消防OAシステムの機能追加開発</li>
+
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -51,7 +57,7 @@
               Oracle
             </v-chip>
           </div>
-          <strong>工具集:</strong>
+          <strong>Tools:</strong>
           <div>
             <v-chip
               class="ma-2"

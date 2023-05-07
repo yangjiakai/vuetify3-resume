@@ -208,6 +208,14 @@ import Project09 from "./projects/Project09.vue";
                   :height="6"
                 ></v-progress-linear>
               </div>
+              <div>
+                <p class="mt-2">storybook</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="70"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
 
               <h6 class="text-h6 mt-10"><b class="">Backend</b></h6>
 

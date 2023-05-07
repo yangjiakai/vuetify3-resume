@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>WBE EDI 人才管理派遣系统</strong>

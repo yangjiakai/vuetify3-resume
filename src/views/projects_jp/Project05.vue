@@ -6,25 +6,32 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-5-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
-        <strong>电通会计系统</strong>
-        <div class="text-caption">
-          2020/02 - 2020/11 <span> 全栈开发工程师</span>
+        <strong>電通会計システム</strong>
+        <div class="mb-3">
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2020/02 - 2020/11</v-chip
+            >
+            fullstack</strong
+          >
         </div>
         <div>
-          <strong>项目概述:</strong>
-          <p>担任部分Master管理功能开发</p>
-          <strong>职责概述</strong>
+          <strong>プロジェクト概要:</strong>
+          <p>会計システム</p>
+          <strong>職務の概要</strong>
           <li>
-            担当会计系统内的部分功能的开发，包含：勘定科目、源泉徴収税、予算等マスタ管理功能开发以及预算的部分业务功能及API开发
+            会計システム内の一部機能の開発、勘定科目、源泉徴収税、予算などのマスタ及び一部の会計機能が含まれます
           </li>
-          <li>担当功能的数据库设计式样书作成并进行关联表作成</li>
-          <li>担当功能的SQL文作成以及使用SpringBoot进行后端开发Restful Api</li>
-          <li>担当功能的前端画面使用Vue和Wijimo根据设计式样书进行开发</li>
-          <li>使用敏捷开发进行开发推进</li>
-          <strong>技术栈:</strong>
+          <li>
+            担当機能のデータベース設計書の作成とテーブルの作成,SQL文の作成
+          </li>
+          <li>JavaのSpringBootを利用してRestfulApiの開発</li>
+          <li>VueとTypescriptを利用して、画面開発</li>
+          <li>アジャイル開発</li>
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -87,7 +94,7 @@
               PostgresSQL
             </v-chip>
           </div>
-          <strong>工具集:</strong>
+          <strong>Tools:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -108,7 +115,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              git版本管理
+              git
             </v-chip>
           </div>
         </div>

@@ -201,10 +201,26 @@ import Project09 from "./projects_jp/Project09.vue";
                 ></v-progress-linear>
               </div>
               <div>
-                <p class="mt-2">tailwind css</p>
+                <p class="mt-2">tailwind</p>
                 <v-progress-linear
                   color="primary"
                   model-value="70"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p class="mt-2">storybook</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="50"
+                  :height="6"
+                ></v-progress-linear>
+              </div>
+              <div>
+                <p class="mt-2">react</p>
+                <v-progress-linear
+                  color="primary"
+                  model-value="50"
                   :height="6"
                 ></v-progress-linear>
               </div>

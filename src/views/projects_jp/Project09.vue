@@ -6,19 +6,17 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-9-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
-        <strong>Salesforce OA管理系统</strong>
+        <strong>Salesforce OA管理システム</strong>
         <div class="text-caption">2017/07 - 2018/08</div>
         <div>
-          <strong>项目概述:</strong>
-          <p>全画面的UI设计以及Vue前端开发</p>
-          <strong>职责概述</strong>
-          <li>根据客户的要求定制功能</li>
-          <li>既存功能的bug对应</li>
-          <li>自动化测试</li>
-          <strong>技术栈:</strong>
+          <strong>プロジェクト概要</strong>
+          <p>Salesforce OA管理システムの機能追加開発</p>
+          <strong>職務の概要</strong>
+          <p>新規機能開発と自動化テスト</p>
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -61,7 +59,7 @@
               SOQL
             </v-chip>
           </div>
-          <strong>工具集:</strong>
+          <strong>Tools:</strong>
           <div>
             <v-chip
               class="ma-2"

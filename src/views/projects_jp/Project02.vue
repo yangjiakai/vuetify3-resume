@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-2-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
         <div>
@@ -16,7 +16,7 @@
             >
             Lalaport商品通販とロッカーストレージ Line App</strong
           >
-          <span class="text-caption text-grey">(フロントエンドエンジニア)</span>
+          <span class="text-caption text-grey">(Frontend)</span>
         </div>
         <div>
           <strong>プロジェクト概要:</strong>

@@ -6,18 +6,29 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item dot-color="#434E5E" size="small">
+  <v-timeline-item icon="mdi-numeric-7-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
-        <strong>Versal官方网站及职位信息管理系统</strong>
-        <div class="text-caption">2020/06 - 2019/09</div>
+        <div class="mb-3">
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2020/06 - 2019/09</v-chip
+            >
+            Versalの公式サイトおよび職位情報管理システム</strong
+          >
+          <span class="text-caption text-grey">(Full Stack)</span>
+        </div>
         <div>
-          <strong>项目概述:</strong>
-          <p>个人担当</p>
-          <strong>职责概述</strong>
-          <li>官网所有信息展示页和职位信息管理系统的UI开发</li>
-          <li>管理系统的前端页面开发和后端增删改查API开发</li>
-          <strong>技术栈:</strong>
+          <strong>プロジェクト概要:</strong>
+          <p>パートナー会社の公式サイト開発</p>
+          <strong>職務の概要</strong>
+          <li>
+            公式のウェブサイトのすべての情報表示ページと職位情報管理システムのUI開発
+          </li>
+          <li>
+            職位管理システムのフロントエンドページの開発とバックエンドの追加、削除、更新、検索APIの開発
+          </li>
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -60,7 +71,7 @@
               Mysql
             </v-chip>
           </div>
-          <strong>工具集:</strong>
+          <strong>Tools:</strong>
           <div>
             <v-chip
               class="ma-2"
