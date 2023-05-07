@@ -4,15 +4,15 @@
 * @Description: 
 -->
 <script setup lang="ts">
-import Project01 from "./projects/Project01.vue";
-import Project02 from "./projects/Project02.vue";
-import Project03 from "./projects/Project03.vue";
-import Project04 from "./projects/Project04.vue";
-import Project05 from "./projects/Project05.vue";
-import Project06 from "./projects/Project06.vue";
-import Project07 from "./projects/Project07.vue";
-import Project08 from "./projects/Project08.vue";
-import Project09 from "./projects/Project09.vue";
+import Project01 from "./projects_jp/Project01.vue";
+import Project02 from "./projects_jp/Project02.vue";
+import Project03 from "./projects_jp/Project03.vue";
+import Project04 from "./projects_jp/Project04.vue";
+import Project05 from "./projects_jp/Project05.vue";
+import Project06 from "./projects_jp/Project06.vue";
+import Project07 from "./projects_jp/Project07.vue";
+import Project08 from "./projects_jp/Project08.vue";
+import Project09 from "./projects_jp/Project09.vue";
 </script>
 
 <template>
