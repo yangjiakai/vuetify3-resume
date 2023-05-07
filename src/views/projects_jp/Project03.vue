@@ -9,24 +9,28 @@
   <v-timeline-item dot-color="#434E5E" size="small">
     <div class="d-flex">
       <div>
-        <strong>Dospara 电商网站</strong>
-        <div class="text-caption">
-          2021/03 - 2021/07 <span> 前端开发工程师</span>
+        <div class="mb-3">
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2021/03 - 2021/07</v-chip
+            >
+            Dospara ECサイト</strong
+          >
         </div>
         <div>
-          <strong>项目概述:</strong>
-          <p>电商项目的Salesforce项目,支付功能</p>
+          <strong>プロジェクト概要:</strong>
+          <p>Salesforce ECサイト</p>
 
-          <p><strong>职责概述</strong></p>
+          <p><strong>職務の概要</strong></p>
           <p>
-            担当支付功能的开发,因为是电商网站需要接入许多外部支付方式,api接入,请求和相应信息的处理,以及页面跳转,数据联动更新
+            決済機能を担当しました,通販サイトなので、多くの外部の決済方式を接続する必要があります。apiリクエストとレスポンス情報の処理,画面遷移,データ更新
           </p>
           <div class="ml-3">
             <li><b>外部SDK</b> :Amzonpay,Paypal</li>
-            <li><b>Api请求</b> : PayPay,Paygent</li>
-            <li><b>账单支付</b> : 銀行振込決済 ATM決済</li>
+            <li><b>Apiリクエスト</b> : PayPay,Paygent</li>
+            <li><b>請求書で支払</b> : 銀行振込決済 ATM決済</li>
           </div>
-          <strong>技术栈:</strong>
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"

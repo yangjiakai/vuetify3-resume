@@ -9,16 +9,16 @@
   <v-timeline-item dot-color="#434E5E" size="small">
     <div class="d-flex">
       <div>
-        <strong
-          ><v-chip color="primary" label class="font-weight-bold"
-            >2022/01 - 2023/05</v-chip
+        <div>
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2022/01 - 2023/05</v-chip
+            >
+            データ集配信システム</strong
           >
-          データ集配信システム</strong
-        >
-        <span class="text-body-2 text-grey">(フロントエンドエンジニア)</span>
-        <div class="text-caption">
-          <span> </span>
+          <span class="text-caption text-grey">(フロントエンドエンジニア)</span>
         </div>
+
         <div>
           <strong>プロジェクト概要:</strong>
           <p>

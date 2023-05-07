@@ -9,29 +9,33 @@
   <v-timeline-item dot-color="#434E5E" size="small">
     <div class="d-flex">
       <div>
-        <strong>Lalaport商品贩卖和商品柜存储 Line App</strong>
-        <div class="text-caption">
-          2021/08 - 2021/12 <span> 前端开发工程师</span>
+        <div>
+          <strong
+            ><v-chip color="primary" label class="font-weight-bold"
+              >2021/08 - 2021/12</v-chip
+            >
+            Lalaport商品通販とロッカーストレージ Line App</strong
+          >
+          <span class="text-caption text-grey">(フロントエンドエンジニア)</span>
         </div>
         <div>
-          <strong>项目概述:</strong>
+          <strong>プロジェクト概要:</strong>
           <p>
-            这是一个Line
-            App。一方面用户可以在网上商店进行购物,也可以在Lalaport商场购物。购买的商品可以选择寄存在车站就近的商品柜
-            用户可以通过扫码到商品柜取货。相关信息都可以通过Line
-            App查看,物流存储信息也会及时推送给用户
+            これはLineアプリです。ユーザーはオンラインショップでの買い物や、Lalaportショッピングモールでの買い物をすることができます。買った商品は指定する駅前のローカーに送ることができ、ユーザーはローカーにスキャンして荷物を受け取ることができます。関連する情報はすべてLineアプリで確認することができ、物流ストレージ情報もユーザーに送信されます。
           </p>
-          <strong>职责概述</strong>
-          <li>Jmeter进行压力测试,并优化项目启动速度,接口请求速度</li>
-          <li>商品柜使用状况功能开发担当</li>
-          <li>与结合连入Line的服务</li>
+          <strong>職務の概要</strong>
           <li>
-            使用codepipeline持续化集成部署项目,并在功能上线后使用cloudwatch查看项目运行log调查bug
+            JMeterを使用して負荷テストを実行し、プロジェクトの起動速度とインターフェースのリクエスト速度を最適化します。
           </li>
-          <li>代码检查</li>
-          <li>共通组件开发</li>
-          <li>敏捷开发</li>
-          <strong>技术栈:</strong>
+          <li>ローカーの利用状況機能開発</li>
+          <li>LINEに接続するサービスを開発</li>
+          <li>
+            アプリをawsのcodepipelineを利用して継続的デリバリーして,リリースされた後,cloudwatchを利用してバグを調査します
+          </li>
+          <li>コードリビュー</li>
+          <li>共通コンポーネント開発</li>
+          <li>アジャイル開発</li>
+          <strong>Tech stack:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -41,7 +45,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              前端 vue
+              Frontend vue
             </v-chip>
             <v-chip
               class="ma-2"
@@ -51,7 +55,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              后端 java springboot
+              Backend java springboot
             </v-chip>
             <v-chip
               class="ma-2"
@@ -61,7 +65,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              服务器 aws codepipeline
+              Server aws codepipeline
             </v-chip>
             <v-chip
               class="ma-2"
@@ -71,10 +75,10 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              数据库 dynamodb
+              DB dynamodb
             </v-chip>
           </div>
-          <strong>工具集:</strong>
+          <strong>Tools:</strong>
           <div>
             <v-chip
               class="ma-2"
@@ -104,7 +108,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              git版本管理
+              git
             </v-chip>
           </div>
         </div>
