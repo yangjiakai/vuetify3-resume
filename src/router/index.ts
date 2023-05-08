@@ -23,13 +23,13 @@ const router = createRouter({
         import(/* webpackChunkName: "app-ui" */ "@/views/UI.vue"),
     },
     {
-      path: "/resume",
+      path: "/resume_zh",
       name: "resume",
       component: () =>
         import(/* webpackChunkName: "app-resume" */ "@/views/Resume.vue"),
     },
     {
-      path: "/resume/jp",
+      path: "/resume",
       name: "resume-jp",
       component: () =>
         import(/* webpackChunkName: "app-resume-jp" */ "@/views/ResumeJP.vue"),
