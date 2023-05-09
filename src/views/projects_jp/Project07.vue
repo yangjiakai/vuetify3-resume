@@ -12,7 +12,7 @@
         <div class="mb-3">
           <strong
             ><v-chip color="primary" label class="font-weight-bold"
-              >2020/06 - 2019/09</v-chip
+              >2019/06 - 2019/09</v-chip
             >
             Versalの公式サイトおよび職位情報管理システム</strong
           >
