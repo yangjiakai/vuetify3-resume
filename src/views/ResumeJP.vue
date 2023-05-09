@@ -51,23 +51,38 @@ import Project09 from "./projects_jp/Project09.vue";
               <p>
                 <v-icon icon="mdi-github" class="mr-2" />
 
-                https://github.com/yangjiakai
+                <a
+                  class="text-white"
+                  target="_blank"
+                  href="https://github.com/yangjiakai"
+                  >https://github.com/yangjiakai</a
+                >
               </p>
               <p>
                 <v-icon icon="mdi-web" class="mr-2" />
-
-                https://lux.vuetify3.com/
+                <a
+                  class="text-white"
+                  target="_blank"
+                  href="https://lux.vuetify3.com"
+                >
+                  https://lux.vuetify3.com</a
+                >
               </p>
               <p>
                 <v-icon icon="mdi-web" class="mr-2" />
-
-                https://styler.vuetify3.com/
+                <a
+                  class="text-white"
+                  target="_blank"
+                  href="https://styler.vuetify3.com/"
+                >
+                  https://styler.vuetify3.com/</a
+                >
               </p>
-              <p>
+              <!-- <p>
                 <v-icon icon="mdi-web" class="mr-2" />
 
                 https://www.versal.com.cn/
-              </p>
+              </p> -->
             </v-col>
           </v-row>
         </div>
