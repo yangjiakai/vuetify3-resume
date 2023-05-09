@@ -78,7 +78,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              Git
+              Salesforce
             </v-chip>
             <v-chip
               class="ma-2"
@@ -88,17 +88,7 @@
               density="compact"
             >
               <v-icon start icon="mdi-label-outline"></v-icon>
-              Axure
-            </v-chip>
-            <v-chip
-              class="ma-2"
-              color="#434E5E"
-              label
-              text-color="white"
-              density="compact"
-            >
-              <v-icon start icon="mdi-label-outline"></v-icon>
-              IntelliJ IDEA
+              Selenium
             </v-chip>
           </div>
         </div>

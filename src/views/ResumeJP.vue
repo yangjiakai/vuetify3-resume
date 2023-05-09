@@ -31,10 +31,7 @@ import Project09 from "./projects_jp/Project09.vue";
         <!---Photo-->
         <!-- ---------------------------------------------- -->
         <div class="photo-container">
-          <img
-            src="https://avatars.githubusercontent.com/u/35951244?v=4"
-            class="photo"
-            alt=""
+          <img src="@/assets/avatar/4x4.jpg" class="photo" alt="" />
           />
         </div>
         <!-- ---------------------------------------------- -->
