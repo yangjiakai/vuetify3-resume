@@ -20,18 +20,25 @@
         </div>
 
         <div>
-          <strong>プロジェクト概要:</strong>
+          <div class="mt-2">
+            <strong>プロジェクト概要:</strong>
+          </div>
           <p>
             フロントエンドの技術選定を主導し、Vue3を使用してフロントエンド開発を担当し、そしてプロジェクトモジュール化、共通化、コード規約化を推進して、コードリビューなどの作業を行います。
           </p>
-          <strong>職務の概要</strong>
+          <div class="mt-2">
+            <strong>職務の概要:</strong>
+          </div>
+
           <li>プロジェクト共通コンポーネント開発</li>
           <li>複雑なフォームのある画面を担当</li>
           <li>プロンプト各機能の開発</li>
           <li>プロジェクトのパフォーマンスを最適化する。</li>
           <li>フロントエンド開発で困難な問題を解決する。</li>
           <li>コードリビュー</li>
-          <strong>Tech stack:</strong>
+
+          <div class="mt-1"><strong>Tech stack:</strong></div>
+
           <div>
             <v-chip
               class="ma-2"
@@ -74,7 +81,9 @@
               DB dynamodb
             </v-chip>
           </div>
-          <strong>Tools:</strong>
+
+          <div class="mt-1"><strong>Tools:</strong></div>
+
           <div>
             <v-chip
               class="ma-2"

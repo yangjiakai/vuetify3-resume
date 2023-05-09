@@ -9,19 +9,23 @@
   <v-timeline-item icon="mdi-numeric-5-circle" size="30" dot-color="#fff">
     <div class="d-flex">
       <div>
-        <strong>電通会計システム</strong>
         <div class="mb-3">
           <strong
             ><v-chip color="primary" label class="font-weight-bold"
               >2020/02 - 2020/11</v-chip
             >
-            fullstack</strong
+            電通会計システム</strong
           >
+          <span class="text-caption text-grey">(Full Stack)</span>
         </div>
         <div>
-          <strong>プロジェクト概要:</strong>
+          <div class="mt-2">
+            <strong>プロジェクト概要:</strong>
+          </div>
           <p>会計システム</p>
-          <strong>職務の概要</strong>
+          <div class="mt-2">
+            <strong>職務の概要:</strong>
+          </div>
           <li>
             会計システム内の一部機能の開発、勘定科目、源泉徴収税、予算などのマスタ及び一部の会計機能が含まれます
           </li>
@@ -31,7 +35,7 @@
           <li>JavaのSpringBootを利用してRestfulApiの開発</li>
           <li>VueとTypescriptを利用して、画面開発</li>
           <li>アジャイル開発</li>
-          <strong>Tech stack:</strong>
+          <div class="mt-1"><strong>Tech stack:</strong></div>
           <div>
             <v-chip
               class="ma-2"
@@ -94,7 +98,7 @@
               PostgresSQL
             </v-chip>
           </div>
-          <strong>Tools:</strong>
+          <div class="mt-1"><strong>Tools:</strong></div>
           <div>
             <v-chip
               class="ma-2"

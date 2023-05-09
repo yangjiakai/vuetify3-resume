@@ -18,10 +18,14 @@
           >
         </div>
         <div>
-          <strong>プロジェクト概要:</strong>
+          <div class="mt-2">
+            <strong>プロジェクト概要:</strong>
+          </div>
           <p>Salesforce ECサイト</p>
 
-          <p><strong>職務の概要</strong></p>
+          <p>          <div class="mt-2">
+            <strong>職務の概要:</strong>
+          </div></p>
           <p>
             決済機能を担当しました,通販サイトなので、多くの外部の決済方式を接続する必要があります。apiリクエストとレスポンス情報の処理,画面遷移,データ更新
           </p>
@@ -30,7 +34,7 @@
             <li><b>Apiリクエスト</b> : PayPay,Paygent</li>
             <li><b>請求書で支払</b> : 銀行振込決済 ATM決済</li>
           </div>
-          <strong>Tech stack:</strong>
+          <div class="mt-1"><strong>Tech stack:</strong></div>
           <div>
             <v-chip
               class="ma-2"

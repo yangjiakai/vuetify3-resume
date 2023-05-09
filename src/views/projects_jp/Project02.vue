@@ -19,11 +19,15 @@
           <span class="text-caption text-grey">(Frontend)</span>
         </div>
         <div>
-          <strong>プロジェクト概要:</strong>
+          <div class="mt-2">
+            <strong>プロジェクト概要:</strong>
+          </div>
           <p>
             これはLineアプリです。ユーザーはオンラインショップでの買い物や、Lalaportショッピングモールでの買い物をすることができます。買った商品は指定する駅前のローカーに送ることができ、ユーザーはローカーにスキャンして荷物を受け取ることができます。関連する情報はすべてLineアプリで確認することができ、物流ストレージ情報もユーザーに送信されます。
           </p>
-          <strong>職務の概要</strong>
+          <div class="mt-2">
+            <strong>職務の概要:</strong>
+          </div>
           <li>
             JMeterを使用して負荷テストを実行し、プロジェクトの起動速度とインターフェースのリクエスト速度を最適化します。
           </li>
@@ -35,7 +39,7 @@
           <li>コードリビュー</li>
           <li>共通コンポーネント開発</li>
           <li>アジャイル開発</li>
-          <strong>Tech stack:</strong>
+          <div class="mt-1"><strong>Tech stack:</strong></div>
           <div>
             <v-chip
               class="ma-2"
@@ -78,7 +82,7 @@
               DB dynamodb
             </v-chip>
           </div>
-          <strong>Tools:</strong>
+          <div class="mt-1"><strong>Tools:</strong></div>
           <div>
             <v-chip
               class="ma-2"
