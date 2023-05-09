@@ -14,10 +14,9 @@
             ><v-chip color="primary" label class="font-weight-bold"
               >2020/12 - 2021/02</v-chip
             >
-            Dospara ECサイト</strong
+            電通広告分析システム</strong
           >
         </div>
-        <strong>電通広告分析システム</strong>
 
         <div>
           <div class="mt-2">
