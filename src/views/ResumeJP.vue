@@ -129,6 +129,10 @@ import Project09 from "./projects_jp/Project09.vue";
             <div>
               <h3>SKILLS & TOOLS</h3>
               <v-divider color="#434E5E" thickness="2" class="my-5"></v-divider>
+              <h6 class="text-h6 my-2"><b class="">日本語レベル</b></h6>
+              <div>
+                <p class="mt-2">日本語能力試験N1</p>
+              </div>
               <h6 class="text-h6 my-2"><b class="">Frontend</b></h6>
               <div>
                 <p class="mt-2">Html5</p>
