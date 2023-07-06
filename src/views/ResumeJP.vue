@@ -326,6 +326,7 @@ import Project09 from "./projects_jp/Project09.vue";
 
 <style scoped lang="scss">
 .sheet {
+  width: 1200px;
   color: #434e5e;
 }
 
