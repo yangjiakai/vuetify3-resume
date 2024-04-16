@@ -227,6 +227,12 @@ const projects = [
               <h2 class="text-white">全栈工程师</h2>
               <p><v-icon icon="mdi-email" class="mr-2" />yjkbako@gmail.com</p>
               <p><v-icon icon="mdi-phone" class="mr-2" />17709894274</p>
+              <!-- 学历 -->
+              <p>
+                <v-icon icon="mdi-school" class="mr-2" />
+                <span class="mr-2">本科</span>
+                <v-icon icon="mdi-clock" class="mr-2" />29岁
+              </p>
             </v-col>
             <v-col cols="6" md="5">
               <p>
