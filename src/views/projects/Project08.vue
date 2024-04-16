@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>WBE EDI 人才管理派遣系统</strong>
@@ -14,7 +14,7 @@
         <div>
           <strong>项目概述:</strong>
           <p>全画面的UI设计以及Vue前端开发</p>
-          <strong>职责概述</strong>
+          <strong>职责功能概述</strong>
           <li>全页面UI设计</li>
           <li>包括人员管理,勤怠管理,发注,受注等功能Vue开发</li>
           <li>一部分API的开发担当</li>

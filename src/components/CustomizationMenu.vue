@@ -134,7 +134,7 @@ watch(currentColor, (newVal) => {
               @click="toggle"
               class="text-white mr-1"
               icon
-              size="30"
+              size="26"
               :color="color.colorValue"
             >
               <Icon width="22" v-if="isSelected" icon="line-md:confirm" />

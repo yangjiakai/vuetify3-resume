@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>数据集配信管理系统(税务)</strong>
@@ -18,7 +18,7 @@
           <p>
             主导前端的技术栈选型,前端使用Vue3进行开发负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
           </p>
-          <strong>职责概述</strong>
+          <strong>职责功能概述</strong>
           <li>前端基础组件共通化</li>
           <li>开发数个大型复杂表单页面</li>
           <li>参与项目各个功能模块的功能开发</li>
@@ -27,6 +27,8 @@
           <li>代码Review</li>
           <strong>技术栈:</strong>
           <div>
+            在最近的项目中,我主导前端的技术栈选型,负责整个项目前端组件模块化共通化,代码规范化,代码检查等工作
+            其中7年的开
             <v-chip
               class="ma-2"
               color="#434E5E"

@@ -5,7 +5,7 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      redirect: "/resume",
+      redirect: "/resume_zh",
     },
     // this page is a sample page for api calling
     {

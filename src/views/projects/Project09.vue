@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>Salesforce OA管理系统</strong>
@@ -14,7 +14,7 @@
         <div>
           <strong>项目概述:</strong>
           <p>全画面的UI设计以及Vue前端开发</p>
-          <strong>职责概述</strong>
+          <strong>职责功能概述</strong>
           <li>根据客户的要求定制功能</li>
           <li>既存功能的bug对应</li>
           <li>自动化测试</li>

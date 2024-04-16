@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>NTT消防管理系统</strong>
@@ -14,7 +14,7 @@
         <div>
           <strong>项目概述:</strong>
           <p>追加機能開発</p>
-          <strong>职责概述</strong>
+          <strong>职责功能概述</strong>
           <li>消防OA系统的功能追加开发</li>
           <li>消防OA系统账票追加与修正</li>
 

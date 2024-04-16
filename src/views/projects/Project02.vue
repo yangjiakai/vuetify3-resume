@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>Lalaport商品贩卖和商品柜存储 Line App</strong>
@@ -21,7 +21,7 @@
             用户可以通过扫码到商品柜取货。相关信息都可以通过Line
             App查看,物流存储信息也会及时推送给用户
           </p>
-          <strong>职责概述</strong>
+          <strong>职责功能概述</strong>
           <li>Jmeter进行压力测试,并优化项目启动速度,接口请求速度</li>
           <li>商品柜使用状况功能开发担当</li>
           <li>与结合连入Line的服务</li>

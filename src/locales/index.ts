@@ -4,10 +4,10 @@ import jaMessages from "@/locales/ja";
 
 export default {
   // current locale
-  locale: "en",
+  locale: "zhHans",
 
   // when translation is not available fallback to that locale
-  fallbackLocale: "en",
+  fallbackLocale: "zhHans",
 
   // availabled locales for user selection
   availableLocales: [

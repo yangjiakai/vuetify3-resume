@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>Dospara 电商网站</strong>
@@ -17,7 +17,7 @@
           <strong>项目概述:</strong>
           <p>电商项目的Salesforce项目,支付功能</p>
 
-          <p><strong>职责概述</strong></p>
+          <p><strong>职责功能概述</strong></p>
           <p>
             担当支付功能的开发,因为是电商网站需要接入许多外部支付方式,api接入,请求和相应信息的处理,以及页面跳转,数据联动更新
           </p>

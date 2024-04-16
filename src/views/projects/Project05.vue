@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>电通会计系统</strong>
@@ -16,10 +16,8 @@
         <div>
           <strong>项目概述:</strong>
           <p>担任部分Master管理功能开发</p>
-          <strong>职责概述</strong>
-          <li>
-            担当会计系统内的部分功能的开发，包含：勘定科目、源泉徴収税、予算等マスタ管理功能开发以及预算的部分业务功能及API开发
-          </li>
+          <strong>职责功能概述</strong>
+          <li>会计系统内的部分功能的开发</li>
           <li>担当功能的数据库设计式样书作成并进行关联表作成</li>
           <li>担当功能的SQL文作成以及使用SpringBoot进行后端开发Restful Api</li>
           <li>担当功能的前端画面使用Vue和Wijimo根据设计式样书进行开发</li>

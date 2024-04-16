@@ -6,7 +6,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-timeline-item icon="mdi-numeric-1-circle" size="30" dot-color="#fff">
+  <v-timeline-item icon="mdi-check-circle" size="26" dot-color="#fff">
     <div class="d-flex">
       <div>
         <strong>Versal官方网站及职位信息管理系统</strong>
@@ -14,7 +14,7 @@
         <div>
           <strong>项目概述:</strong>
           <p>个人担当</p>
-          <strong>职责概述</strong>
+          <strong>职责功能概述</strong>
           <li>官网所有信息展示页和职位信息管理系统的UI开发</li>
           <li>管理系统的前端页面开发和后端增删改查API开发</li>
           <strong>技术栈:</strong>
